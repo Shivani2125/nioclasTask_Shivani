@@ -1,0 +1,33 @@
+.Main{
+    text-align: center;
+    border: 2px solid green;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+}
+.button{
+    margin: 25px 100px;
+    width: 12%;
+    color: white;
+    background-color: rgb(64, 146, 146);
+    height: 30px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .button{
+        width: 15%;
+    }
+    
+  }
